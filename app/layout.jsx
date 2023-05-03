@@ -18,15 +18,15 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={poppins.className}>
         <Grid container>
-          <Grid item  className="header" >
+          {/* <Grid item className="header">
             <Header />
           </Grid>
-          <Divider />
+          <Divider /> */}
           <Grid container row>
             <Grid item xs={2}>
               <SideBar />
             </Grid>
-            <Grid item xs={10}>
+            <Grid item xs={10} >
               {children}
             </Grid>
           </Grid>
